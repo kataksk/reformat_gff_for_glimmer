@@ -3,13 +3,13 @@
 reformat_gff_for_glimmer.sh <gff_ordered>  
 ```
 
-
+`glimmer_in.txt` will be created in the current directory.  
 
 > EXAMPLE
 ```
 reformat_gff_for_glimmer.sh /work2/kataoka/gene_prediction_azami/busco_complete_v2_test_ordered.gff > glimmer_in.txt
 ```
-`glimmer_in.txt` will be created in the current directory.  
+
 
 busco_complete_v2_test_ordered.gff  
 ```
@@ -36,7 +36,7 @@ scaffold_1      AUGUSTUS        CDS     1563590 1563605 0.01    -       1       
 ...  
 ```
 
-glimmer_in.txt <>
+glimmer_in.txt  
 ```
 scaffold_1      1135166 1136518  
   
