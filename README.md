@@ -11,7 +11,7 @@ reformat_gff_for_glimmer.sh /work2/kataoka/gene_prediction_azami/busco_complete_
 ```
 
 
-busco_complete_v2_test_ordered.gff  
+`busco_complete_v2_test_ordered.gff` looks like:  
 ```
 scaffold_1      AUGUSTUS        gene    1130631 1143471 0.01    +       .       ID=131276at6656  
 scaffold_1      AUGUSTUS        mRNA    1130631 1143471 0.01    +       .       ID=131276at6656;Parent=131276at6656  
@@ -36,7 +36,7 @@ scaffold_1      AUGUSTUS        CDS     1563590 1563605 0.01    -       1       
 ...  
 ```
 
-glimmer_in.txt  
+`glimmer_in.txt` looks like:  
 ```
 scaffold_1      1135166 1136518  
   
