@@ -1,11 +1,11 @@
 > USAGE
 ```
-reformat_gff_for_glimmer.sh <gff_ordered>
+reformat_gff_for_glimmer.sh <gff_ordered> > <output file name>
 ```
 
 > EXAMPLE
 ```
-reformat_gff_for_glimmer.sh /work2/kataoka/gene_prediction_azami/busco_complete_v2_test_ordered.gff
+reformat_gff_for_glimmer.sh /work2/kataoka/gene_prediction_azami/busco_complete_v2_test_ordered.gff > glimmer_in.txt
 ```
 
 
