@@ -8,8 +8,9 @@ reformat_gff_for_glimmer.sh <gff_ordered>
 reformat_gff_for_glimmer.sh /work2/kataoka/gene_prediction_azami/busco_complete_v2_test_ordered.gff
 ```
 
-```
+
 busco_complete_v2_test_ordered.gff  
+```
 scaffold_1      AUGUSTUS        gene    1130631 1143471 0.01    +       .       ID=131276at6656  
 scaffold_1      AUGUSTUS        mRNA    1130631 1143471 0.01    +       .       ID=131276at6656;Parent=131276at6656  
 scaffold_1      AUGUSTUS        CDS     1135166 1136518 0.31    +       0       ID=cds.131276at6656;Parent=131276at6656  
