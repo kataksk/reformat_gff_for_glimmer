@@ -1,9 +1,9 @@
 import glob
 import sys
 
-gff_in = sys.argv[1]
-tmp_gff_file_name = [gff_in]
-# tmp_gff_file_name = glob.glob('./tmp/*')
+# gff_in = sys.argv[1]
+# tmp_gff_file_name = [gff_in]
+tmp_gff_file_name = glob.glob('./tmp/*')
 
 # Version 2021_12_07
 # for tmp_gff_file in tmp_gff_file_name:
